@@ -1,0 +1,345 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+}
+
+/***** Navigation *****/
+
+.navbar {
+    border: 0;
+}
+
+.navbar-brand {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+    color: #633231;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #633231;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-collapse {
+    border: none;
+}
+
+.name-blue {
+    color: #2e507d;
+}
+
+.navbar-nav {
+    font-size: 14px;
+}
+
+.nav li a {
+    padding-left: 15px;
+}
+
+.transparent {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+/***** Main *****/
+
+.main-img {
+    background: url(../img/main-img.jpg) no-repeat bottom right;
+    background-size: cover;
+    height: 590px;
+    width: 100%;
+    position: relative;
+}
+
+.main-social-links {
+    display: none;
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.main-social-links li {
+    cursor: pointer;
+    margin: 30px;
+}
+
+.lyrics {
+    color: white;
+    opacity: 0.35;
+    font-size: 48px;
+    line-height: 1.1em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.fb-icon:hover {
+    color: #3b5998;
+}
+
+.tw-icon:hover {
+    color: #4099ff;
+}
+
+.ig-icon:hover {
+    color: #e1306c;
+}
+
+.yt-icon:hover {
+    color: #cd201f;
+}
+
+/***** Album Section *****/
+
+.album-background {
+    background: url(../img/album-bkg.jpg) no-repeat bottom center;
+    background-size: cover;
+    height: auto;
+}
+
+section {
+    color: #333;
+    padding: 100px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.avaiable {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+section h4 {
+    font-size: 12px;
+}
+
+section ul {
+    padding: 12px 0 0;
+}
+
+/* Album Info */
+
+.album-img {
+    box-shadow: 7px 7px 15px #000;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.album-name {
+    font-size: 18px;
+}
+
+.stores li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.stores li a {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100px;
+    color: #333;
+    display: block;
+    font-size: 24px;
+}
+
+.stores li a:hover {
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.bandcamp a:hover {
+    background-color: rgba(98, 154, 169, 0.7);
+}
+
+.itunes a:hover {
+    background-color: rgba(255, 54, 93, 0.7);
+}
+
+.g-play a:hover {
+    background-color: rgba(253, 140, 0, 0.7);
+}
+
+.spotify a:hover {
+    background-color: rgba(46, 189, 89, 0.7);
+}
+
+/***** Footer *****/
+
+footer {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footnote {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Social Icons */
+
+.social-links {
+    font-size: 40px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social-links li a {
+    color: #333;
+    cursor: pointer;
+    margin: 0 18px;
+}
+
+.social-links i:hover {
+    color: #999;
+}
+
+/***** Contact Page *****/
+
+.contact-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-area h3,
+.contact-area h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+.contact-area h3 {
+    font-size: 14px;
+}
+
+.contact-area h4 {
+    margin-top: 50px;
+}
+
+/***** Shows Pages *****/
+
+.shows {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/***** Media Queries *****/
+
+@media screen and (min-width: 768px) {
+    body {
+        padding-top: 90px;
+    }
+    .navbar .container {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .main-social-links {
+        display: inline-block;
+    }
+    .main-social-links ul {
+        padding: 0;
+    }
+    .main-social-links li {
+        display: inline-block;
+    }
+    .main-social-links li a {
+        color: white;
+    }
+    .lyrics {
+        display: none;
+    }
+    .navbar-brand {
+        font-size: 26px;
+        padding: 15px 0 0 15px;
+    }
+    .nav {
+        font-size: 18px;
+    }
+    .album-background {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .stores li {
+        cursor: pointer;
+        font-size: 14px;
+        list-style: none;
+        margin: 5px 0;
+    }
+    .album-name {
+        font-size: 36px;
+    }
+    .available, .contact-area h3 {
+        font-size: 28px;
+    }
+    section h4 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1224px) {
+    body {
+        padding-top: 110px;
+    }
+    .navbar .container {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .main-img {
+        height: 800px;
+    }
+    .navbar-brand {
+        font-size: 42px;
+    }
+    .nav {
+        font-size: 26px;
+    }
+    .main-social-links {
+        font-size: 130px;
+    }
+    .main-social-links li {
+        margin: 70px;
+    }
+    .album-background {
+        height: 1000px;
+    }
+    .album-name {
+        font-size: 48px;
+    }
+    .stores li a {
+        font-size: 24px;
+    }
+    .album-img {
+        max-width: 600px;
+    }
+}
